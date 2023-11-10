@@ -1,7 +1,6 @@
 body {
   margin: 0;
   overflow: hidden;
-  /* スクロールを無効にする */
 }
 
 #root {
