@@ -21,7 +21,10 @@ export default function App() {
         <OrbitControls autoRotate />
         {/* ライト */}
         <directionalLight position={[5, 5, 5]} castShadow />
-
+        {/* ブルームエフェクト */}
+        <EffectComposer>
+          <Bloom />
+        </EffectComposer>
       </Canvas>
     </>
   )
